@@ -1,0 +1,31 @@
+{
+  "name": "api-base",
+  "version": "0.1.0",
+  "description": "API base developed in JS using Node JS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeris/api-base-js.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Brandon González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeris/api-base-js/issues"
+  },
+  "homepage": "https://github.com/zeris/api-base-js#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3"
+  }
+}
